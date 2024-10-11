@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam</title>
+    <title>בחינה</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1 id="exam-title">Exam Name</h1>
+        <h1 id="exam-title">שם הבחינה</h1>
         <div id="question-container">
             <!-- Placeholder for questions and options -->
-            <h2 id="question-text">Question text here</h2>
+            <h2 id="question-text">כאן יופיע הטקסט של השאלה</h2>
             <div id="options">
-                <button class="option-btn" onclick="checkAnswer(0)">Option 1</button>
-                <button class="option-btn" onclick="checkAnswer(1)">Option 2</button>
-                <button class="option-btn" onclick="checkAnswer(2)">Option 3</button>
-                <button class="option-btn" onclick="checkAnswer(3)">Option 4</button>
+                <button class="option-btn" onclick="checkAnswer(0)">אפשרות 1</button>
+                <button class="option-btn" onclick="checkAnswer(1)">אפשרות 2</button>
+                <button class="option-btn" onclick="checkAnswer(2)">אפשרות 3</button>
+                <button class="option-btn" onclick="checkAnswer(3)">אפשרות 4</button>
             </div>
         </div>
-        <button id="next-question-btn" onclick="nextQuestion()" disabled>Next Question</button>
+        <button id="next-question-btn" onclick="nextQuestion()" disabled>שאלה הבאה</button>
     </div>
 
     <script src="script.js"></script>
